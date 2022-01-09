@@ -3,8 +3,8 @@
 using namespace std;
 
 bool isPrime(int n) {
-     int i, square_root = (int) sqrt(n);
-     for(i = 2 ; i < square_root; i++) {
+     int i, sqroot = (int) sqrt(n);
+     for(i = 2 ; i < sqroot; i++) {
           if(isPrime(i) && n % i == 0)
                return false;
      }
